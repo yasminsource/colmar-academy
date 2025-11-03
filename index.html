@@ -1,0 +1,272 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+            <link rel="icon" href="resources/images/ic-logo.svg" type="image/svg">
+            <link href="resources/css/reset.css" rel="stylesheet" type="text/css"> 
+            <link href="resources/css/styles.css" rel="stylesheet" type="text/css">       
+            <title>Colmar Academy</title>
+        </head>
+        <body>
+            <!--Header-->
+            <header>
+                <div class="header">
+                    <div class="logo">
+                        <a href="index.html"><img class="logo-icon" src="resources/images/ic-logo.svg"><h1><span class="title-1">COLMAR</span><span class="title-2">ACADEMY</span></h1>
+                        </a>
+                    </div>
+                    <nav class="desktop">
+                        <ul>
+                            <li><a href="#">On Campus</a></li>
+                            <li><a href="#">Online</a></li>
+                            <li><a href="#">For Companies</a></li>
+                            <li><a href="#">Sign in</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--for mobile display-->
+                <div class="header-mobile">
+                    <nav class="mobile">
+                        <ul>
+                            <li><a href="index.html"><img src="resources/images/ic-logo.svg"></a></li>
+                            <li><a href="#oncampus"><img src="resources/images/ic-on-campus.svg"></a></li>
+                            <li><a href="#online"><img src="resources/images/ic-online.svg"></a></li>
+                            <li><a href="#login"><img src="resources/images/ic-login.svg"></a></li>
+                        </ul>
+                    </nav>  
+                </div>
+            </header>
+            <main>
+                <!--Section for Banner-->
+                <section class="banner">
+                    <img src="resources/images/banner.jpg">
+                    <div class="enroll">
+                        <h1>Learn Something New Everyday</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <a href="#button">
+                            <div class="button">
+                                <p>Start here</p>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <!--Section for Information-->
+                <section class="information">
+                    <div class="main">
+                        <img src="resources/images/information-main.jpg">
+                        <h2>It doesn't hurt to keep practicing</h2>
+                        <p class="quote-img">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+                        <p class="cite">Emanuel, Sr Strategist at Hiring.com</p>
+                    </div>
+                    <!--schedule class made to organize containers of div class event-->
+                    <div class="schedule">
+                        <div class="event">
+                            <div class="event-pic">
+                                <img src="resources/images/information-orientation-mobile.jpg">
+                            </div>
+                            <div class="event-desc">
+                                <h4>Orientation date</h4>
+                                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                                <a href="#readmore">Read More</a>
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="event-pic">
+                                <img src="resources/images/information-campus.jpg">
+                            </div>
+                            <div class="event-desc">
+                                <h4>Our campus</h4>
+                                <p>Find which campus is close by you</p>
+                                <a href="#readmore">Read More</a>
+                            </div> 
+                        </div>
+                        <div class="event">
+                            <div class="event-pic">
+                                <img src="resources/images/information-guest-lecture.jpg">
+                            </div>
+                            <div class="event-desc">
+                                <h4>Our guest lecture</h4>
+                                <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                                <a href="#readmore">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--for mobile display-->
+                    <div class="schedule-mobile">
+                        <div class="event-mobile">
+                            <div class="event-pic-mobile">
+                                <img src="resources/images/information-orientation-mobile.jpg">
+                            </div>
+                            <div class="event-desc-mobile">
+                                <h4>Orientation date</h4>
+                                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                                <a href="#readmore">Read More</a>
+                            </div>
+                        </div>
+                        <div class="event-mobile">
+                            <div class="event-pic-mobile">
+                                <img src="resources/images/information-campus-mobile.jpg">
+                            </div>
+                            <div class="event-desc-mobile">
+                                <h4>Our campus</h4>
+                                <p>Find which campus is close by you</p>
+                                <a href="#readmore">Read More</a>
+                            </div> 
+                        </div>
+                        <div class="event-mobile">
+                            <div class="event-pic-mobile">
+                                <img src="resources/images/information-guest-lecture-mobile.jpg">
+                            </div>
+                            <div class="event-desc-mobile">
+                                <h4>Our guest lecture</h4>
+                                <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                                <a href="#readmore">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--Faculty section-->
+                <section class="faculty">
+                    <h2>Start learning</h2>
+                    <!--learning class to organize containers of div class course-->
+                    <div class="learning">
+                        <a href="#softwareengineering" class="course">
+                            <img src="resources/images/course-software.jpg">
+                            <div class="course-desc">
+                                <h4>Software engineering</h4>
+                                <p>COURSES</p>
+                                <p>Web Development, Mobile Development, iOT, APIs</p>
+                            </div>
+                        </a>
+                        <a href="#computerart" class="course">
+                            <img src="resources/images/course-computer-art.jpg">
+                            <div class="course-desc">
+                                <h4>Computer art</h4>
+                                <p>COURSES</p>
+                                <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                            </div>
+                        </a>
+                        <a href="#design" class="course">
+                            <img src="resources/images/course-design.jpg">
+                            <div class="course-desc">
+                                <h4>Design</h4>
+                                <p>COURSES</p>
+                                <p>User Experience Design, User Research, Visual Design</p>
+                            </div>
+                        </a>
+                        <a href="#data" class="course">
+                            <img src="resources/images/course-data.jpg">
+                            <div class="course-desc">
+                                <h4>Data</h4>
+                                <p>COURSES</p>
+                                <p>Data Science, Big Data, SQL, Data Visualization</p>
+                            </div>
+                        </a>
+                        <a href="#business" class="course">
+                            <img src="resources/images/course-business.jpg">
+                            <div class="course-desc">
+                                <h4>Business</h4>
+                                <p>COURSES</p>
+                                <p>Product Development, Business Development, Startup</p>
+                            </div>
+                        </a>
+                        <a href="#marketing" class="course">
+                            <img src="resources/images/course-marketing.jpg">
+                            <div class="course-desc">
+                                <h4>Marketing</h4>
+                                <p>COURSES</p>
+                                <p>Analytics, Content Marketing, Mobile Marketing</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!--for mobile-->
+                    <div class="learning-mobile">
+                        <div class="course-mobile">
+                            <a href="#softwareengineering">
+                                <h4>Software Engineering</h4>
+                            </a>
+                        </div>
+                        <div class="course-mobile">
+                            <a href="#computerart">
+                                <h4>Computer Art</h4>
+                            </a>
+                        </div>
+                        <div class="course-mobile">
+                            <a href="#design">
+                                <h4>Design</h4>
+                            </a>
+                        </div>
+                        <div class="course-mobile">
+                            <a href="#data">
+                                <h4>Data</h4>
+                            </a>
+                        </div>
+                        <div class="course-mobile">
+                            <a href="#business">
+                                <h4>Business</h4>
+                            </a>
+                        </div>
+                        <div class="course-mobile">
+                            <a href="#marketing">
+                                <h4>Marketing</h4>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="thesis">
+                    <h2>Thesis Exhibit</h2>
+                    <div class="thesis-exhibit">
+                        <div class="video">
+                            <video width="60%" height="auto" controls>
+                                <source src="resources/videos/thesis.mp4" type="video/mp4">
+                            </video>
+                            <h4>Reimagine urban</h4>
+                            <p class="quote-vid">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+                        </div>
+                    <!--exhibit class to organize showcase class div-->
+                        <div class="exhibit">
+                            <div class="showcase">
+                                <a href="#fisma">
+                                <div class="showcase-pic">
+                                    <img src="resources/images/thesis-fisma.jpg">
+                                </div>
+                                <div class="showcase-desc">
+                                    <h4>Fisma: Design and Prototype</h4>
+                                    <p>Designer showcase of new prototype product</p>
+                                </div>
+                            </div>
+                            <div class="showcase">
+                                <a href="#nowandthen">
+                                <div class="showcase-pic">
+                                    <img src="resources/images/thesis-now-and-then.jpg">
+                                </div>
+                                <div class="showcase-desc">
+                                    <h4>Now and then</h4>
+                                    <p>Research study about New York</p>
+                                </div>  
+                                </a>                          
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class="copyright">
+                    <p>&copy; 2016 Colmar Academy. All rights reserved</p>
+                </div>
+                <div class="terms">
+                    <nav class="terms">
+                        <ul>
+                            <li><a href="#terms">Terms</a></li>
+                            <li><a href="#privacy">Privacy</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+        </body>
+    </html>
