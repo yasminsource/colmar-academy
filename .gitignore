@@ -1,0 +1,6 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore common development directories (optional but recommended)
+/node_modules
+/dist
